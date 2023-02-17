@@ -48,7 +48,9 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -100,6 +102,21 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 12px;
+}
+
+.contactme-container {
+    background: #130a35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactme-content {
+    color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 100%;
 }
 
 .projects-item {
@@ -178,9 +195,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a/*#333333*/;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a/*#666666*/;
 }
 
 .btn, .btn:visited  {
@@ -287,6 +304,7 @@ footer {
 .aboutme-photo {
     width: 100%;
     max-width: 320px;
+    border-radius: 500px;
 }
 
 
