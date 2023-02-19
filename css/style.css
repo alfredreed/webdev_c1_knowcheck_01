@@ -119,6 +119,13 @@ body {
     width: 100%;
 }
 
+.googlemap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: min-content;
+}
+
 .projects-item {
     
 }
@@ -349,6 +356,10 @@ footer {
 
     .mobile-nav {
         display: none;
+    }
+
+    .googlemap {
+        max-width: 1000px;
     }
 
     ul#navigation {
